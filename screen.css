@@ -18,6 +18,13 @@ h1 {
   font-size: 40px;
 }
 
+.opening {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 3px dotted black;
+  margin: 1rem;
+}
+
 .center {
   margin: auto;
   /* width: 60%;
@@ -41,4 +48,21 @@ h1 {
     width: 20%;
     /* max-height: 100px; */
   }
+}
+
+.links {
+  display: flex;
+  flex: auto;
+  width: 100%;
+  justify-content: space-around;
+  a {
+    width: 20%;
+    padding: 2rem;
+  }
+}
+
+.goodbye {
+  padding-bottom: 1rem;
+  border-bottom: 3px solid black;
+  margin-bottom: 1rem;
 }
