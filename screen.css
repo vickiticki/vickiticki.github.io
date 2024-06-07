@@ -25,3 +25,20 @@ h1 {
   padding: 10px; */
   text-align: center;
 }
+
+.about {
+  display: flex;
+  flex: auto;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+  p {
+    width: 60%;
+    padding: 20px;
+    margin-top: 1rem;
+    line-height: 1.25;
+  }
+  img {
+    width: 20%;
+    /* max-height: 100px; */
+  }
+}
